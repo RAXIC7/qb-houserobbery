@@ -4,7 +4,7 @@ Config.MinZOffset = 45
 
 Config.MinimumHouseRobberyPolice = 0 -- minimum amount of police required for house robberies
 
-Config.PoliceNotifyType = 'ps' --support for qb police notification and ps-dispatch. change to 'ps' for ps-dispatch
+Config.PoliceNotifyType = 'qb' --support for qb police notification and ps-dispatch. change to 'ps' for ps-dispatch
 
 Config.MinimumTime = 5 -- past this time players are able to start house robberies
 Config.MaximumTime = 22 -- past this time players are unable to start house robberies
@@ -13,7 +13,7 @@ Config.MaximumTime = 22 -- past this time players are unable to start house robb
 Config.MiniGameSettings = {
 
     LockPicking = {        
-        Type = 'keydrop', --type of minigame when lockpicking doors.  [default is lockpick]
+        Type = 'lockpick', --type of minigame when lockpicking doors.  [default is lockpick]
         --use 'lockpick' for qb-lockpick [doesnt have any settings below as its an inbuilt function of qb-lockpick]
         --use 'ps-ui' for ps-ui skillcircle. adjust settings below accordingly for correct minigame type
         --use 'keydrop' for boii_ui keydrop. adjust settings below accordingly for correct minigame type
@@ -33,7 +33,7 @@ Config.MiniGameSettings = {
 
     Searching = {
 
-        Type = 'keydrop', --type of minigame when lockpicking doors.  [default is skillbar]
+        Type = 'skillbar', --type of minigame when lockpicking doors.  [default is skillbar]
         --use 'skillbar' for qb-skillbar. adjust settings below accordingly for correct minigame type
         --use 'ps-ui' for ps-ui skillcircle. adjust settings below accordingly for correct minigame type
         --use 'keydrop' for boii_ui keydrop. adjust settings below accordingly for correct minigame type

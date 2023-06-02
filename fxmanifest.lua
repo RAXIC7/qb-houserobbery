@@ -15,6 +15,9 @@ shared_scripts {
 client_script 'client/main.lua'
 server_script 'server/main.lua'
 
-
+dependencies { -- if not using either of these then comment out this section
+    'qb-lockpick',
+    'qb-skillbar'
+} --
 
 lua54 'yes'

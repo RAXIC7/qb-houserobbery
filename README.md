@@ -1,9 +1,30 @@
 # qb-houserobbery
-House Robberies For QB-Core
+House Robbery Script For QB-Core - Majorly Improved.
 
-## Dependencies
-- qb-lockpick: https://github.com/qbcore-framework/qb-lockpick
-- qb-skillbar: https://github.com/qbcore-framework/qb-skillbar
+
+# Features
+
+Tiered loot system for houses
+Support for ps-dispatch or normal qb police alerts
+Support for ps-ui, skillbar and Boii_ui minigames
+Easily change minigame settings and much more via config.lua
+
+
+
+# Lock Picking
+
+Choose betwen qb-lockpick, ps-ui skillcircle or Boii_UI Keydrop for lock picking house doors
+
+# Searching For Items
+
+Choose between qb-skillbar, ps-ui skillcircle or Boii_UI keydrop for searching areas
+
+# Dependencies
+
+If you are not using ps-ui or boii_ui then you will need the default dependencies
+
+qb-lockpick: https://github.com/qbcore-framework/qb-lockpick
+qb-skillbar: https://github.com/qbcore-framework/qb-skillbar
 
 # License
 
